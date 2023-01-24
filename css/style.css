@@ -1,0 +1,489 @@
+/* Author  : Anjali Soman
+Date    : 14-01-2023 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sub-container {
+    margin-top: 20px;
+    border-top: solid 4px orangered;
+    background-color: #f2f2f7;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section 1 : Name and Details */
+
+.sub-container1 {
+    padding: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.p-img {
+    box-shadow: 12px 12px 10px #ccd2d3;
+    height: 100%;
+    width: 200px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.details h1 {
+    margin-bottom: 5px;
+}
+
+.name p {
+    font-size: larger;
+    color: orangered;
+}
+
+.birth {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 90px;
+}
+
+/* Section 1 : Icons*/
+
+.icons {
+    display: flex;
+    /* padding-left: 235px; */
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.icons-1 {
+    display: flex;
+    gap: 10px;
+}
+
+.icons-1 div {
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+
+.icons img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Second Division */
+
+.sub-container2 > div {
+    margin-bottom: 80px;
+}
+
+/* Acitivity section */
+.activity {
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.activity div {
+    line-height: 25px;
+    width: 150px;
+}
+
+/* Work History section */
+.work-history {
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.work-history div {
+    line-height: 25px;
+    width: 150px;
+}
+
+/* Specialities Section -1 */
+.my-specialities {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.my-specialities div {
+    line-height: 25px;
+}
+
+/* Projects Section */
+.projects {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.projects div {
+    line-height: 25px;
+}
+
+.projects-2 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.projects-2 div {
+    line-height: 25px;
+}
+
+/* Section -3  */
+/* Skills section */
+.skills {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.skills div {
+    line-height: 30px;
+}
+
+.coding-skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.coding-skills > div {
+    border-bottom: solid 3px orangered;
+}
+
+.cs-1 {
+    width: 70%;
+    position: relative;
+}
+
+.cs-2 {
+    width: 60%;
+    position: relative;
+}
+
+.cs-3 {
+    width: 70%;
+    position: relative;
+}
+
+.cs-4 {
+    width: 55%;
+    position: relative;
+}
+
+.design-tools > div {
+    border-bottom: solid 3px orangered;
+}
+
+.dt-1 {
+    width: 70%;
+    position: relative;
+}
+
+.dt-2 {
+    width: 70%;
+    position: relative;
+}
+
+/* Section - 4 */
+/* Work Experience */
+.work-experience-1 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.work-experience-1 > div {
+    line-height: 25px;
+}
+
+.work-experience-2 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.work-experience-2 > div {
+    line-height: 25px;
+}
+
+/* Section - 5 */
+/* Education Section */
+
+.education-1 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.education-1 div {
+    line-height: 25px;
+}
+
+.education-2 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.education-2 div {
+    line-height: 25px;
+}
+
+/* Section 6 : Marketplace Profile */
+.marketplace-profile > div {
+    line-height: 25px;
+}
+
+.marketplace-profile img {
+    width: 20px;
+    height: auto;
+}
+
+.marketplace-profile1 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.marketplace-profile2 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.mpp {
+    display: flex;
+    gap: 20px;
+}
+
+/* Publication Section */
+.publications div {
+    line-height: 25px;
+}
+
+.publication-1 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+/* Certificates Section */
+.certificates {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.certificates div {
+    line-height: 25px;
+}
+
+.certificates-2 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.certificates-2 div {
+    line-height: 25px;
+}
+
+/* Section 7 : Portfolio */
+
+.portfolio1 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.portfolio-image {
+    display: flex;
+    gap: 25px;
+}
+
+.portfolio-image img {
+    width: 220px;
+    height: auto;
+}
+
+.portfolio-image img:hover {
+    width: 400px;
+    height: auto;
+}
+
+.portfolio2 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+/* Section 8 : Reviews */
+/* .review1 > div {
+    border: solid 1px;
+} */
+
+.reviews {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.reviews div {
+    line-height: 25px;
+}
+
+.reviews img {
+    width: 40px;
+    height: auto;
+}
+
+.img-rating1 {
+    display: flex;
+    gap: 10px;
+}
+
+.img-rating2 {
+    display: flex;
+    gap: 10px;
+}
+
+/* Section 9 : Contact */
+.contact {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+/* .contact div {
+    border: solid 1px;
+} */
+
+/* Section 10 : Get in Touch */
+.get-in-touch {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.gint-2 {
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+}
+
+.gint-2 > div {
+    margin-bottom: 20px;
+}
+
+.form div {
+    margin-bottom: 20px;
+}
+
+/* Section 11 : Button */
+.submit-button {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    background-color: #ff4500;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+/* Footer Section */
+.footer {
+    display: flex;
+    gap: 30px;
+}
+
+/* .footer div {
+    border: solid 1px;
+} */
+
+.fbutton {
+    position: relative;
+    height: 30px;
+}
+
+.ftext {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 15px;
+}
+/* Extra styling */
+
+.grey {
+    color: #666464;
+}
+
+.small-font {
+    font-size: 14px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.width-150 {
+    width: 150px;
+}
+
+.width-200 {
+    width: 200px;
+}
+
+.width-330 {
+    width: 330px;
+}
+
+.width-690 {
+    width: 690px;
+}
+
+.black {
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.orange-red {
+    color: #ff4500;
+}
+
+.disp-flex {
+    display: flex;
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: -23px;
+}
+
+.padding-10 {
+    padding: 10px;
+    background-color: #d1cccc;
+    /* border-color: #666464; */
+    border: none;
+}
